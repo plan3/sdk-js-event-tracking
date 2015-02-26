@@ -1,6 +1,9 @@
 {
     "name": "schibsted-event-tracking",
     "main": "lib/activity.js",
+    "dependencies": {
+        "webpack": "^1.5.3"
+    },
     "devDependencies": {
         "chai": "^2.0.0",
         "grunt": "~0.4.1",
@@ -23,7 +26,6 @@
         "mocha": "^2.1.0",
         "phantomjs": "^1.9.13",
         "sinon": "^1.12.2",
-        "webpack": "^1.5.3",
         "webpack-dev-server": "^1.7.0"
     },
     "scripts": {
