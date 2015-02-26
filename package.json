@@ -2,7 +2,8 @@
     "name": "schibsted-event-tracking",
     "main": "lib/activity.js",
     "dependencies": {
-        "webpack": "^1.5.3"
+        "webpack": "^1.5.3",
+        "debug": "^2.1.1"
     },
     "devDependencies": {
         "chai": "^2.0.0",
